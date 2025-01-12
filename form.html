@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p{
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body><br>
+    <h2 class="text-center">Registeration Form</h2>
+    <form class="form">
+        <br><br>
+        <p>Name: *<input class="form-input" type="text" name="text" id="text" placeholder="Enter Your Name" required></p><br>
+        
+        <p>Gender * </p>
+            <p class="form-input">Male <input type="radio" name="Gender" id="Gender" required>
+           Female <input type="radio" name="Gender" id="Gender" required></p>
+        <br>
+        <p>Address: <textarea class="form-input" rows="8" cols="70"></textarea></p><br>
+        <p>Pincode: <input  class="form-input" type="number" name="pincode" id="pincode"></p><br>
+        <p>Email: * <input class="form-input" type="email" name="email" id="email"></p><br>
+        <P>Select Course: * <select class="form-input" name="Course Type" id="Course Type" required>
+            <option value="">Select</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <opiton value="Front End">Front End</opiton>
+            <option value="Back End">Back End</option>
+        </select></P><br>
+        <p>Card Type: * <select  class="form-input" name="card type" id="card type">
+            <option value="">Select</option>
+            <option value="Visa">Visa</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Master Card">Master Card</option>
+        </select></p><br>
+        <p>Card No: * <input class="form-input"  type="number" name="card no" id="card no"></p><br>
+        <p>Expiration date <input class="form-input"  type="date" name="exp_date" id="exp_date"></p><br>
+        <p>CVV: * <input  class="form-input" type="password" name="cvv" id="cvv"></p><br>
+         <p ><input class="form-input" class="bttn" type="submit" value="Submit">
+        <input class="bttn" type="Reset" value="Reset"></p><br>
+
+    </form>
+</body>
+</html>
