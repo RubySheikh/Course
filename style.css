@@ -13,8 +13,6 @@
     background-color: rgb(152, 88, 122);
 }
 
-
-
 .nav-li{
    width: 60%;
    color: white;
@@ -118,14 +116,6 @@ h1{
     color:rgb(152, 88, 122); 
     text-decoration: none;
 }
-
-
-.bttn{
-    background-color: rgb(152, 88, 122);
-    color: white;
-    font-size: 18px;
-        border: 2px solid rgb(230, 147, 188);
-    }
 
 
 .video{
